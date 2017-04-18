@@ -60,7 +60,7 @@ WIFI_DRIVER_FW_PATH_AP           := "/vendor/etc/wifi/bcmdhd_apsta.bin"
 WIFI_BAND                        := 802_11_ABG
 
 # inherit from common
--include device/samsung/universal7870-common/BoardConfigCommon.mk
+include device/samsung/universal7870-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 include vendor/samsung/j7xelte/BoardConfigVendor.mk
