@@ -63,4 +63,4 @@ WIFI_BAND                        := 802_11_ABG
 -include device/samsung/universal7870-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
--include vendor/samsung/j7xelte/BoardConfigVendor.mk
+include vendor/samsung/j7xelte/BoardConfigVendor.mk

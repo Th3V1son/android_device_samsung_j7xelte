@@ -95,4 +95,4 @@ PRODUCT_COPY_FILES += \
 # Inherit from common
 $(call inherit-product, device/samsung/universal7870-common/device-common.mk)
 
-$(call inherit-product-if-exists, vendor/samsung/j7xelte/j7xelte-vendor.mk)
+$(call inherit-product, vendor/samsung/j7xelte/j7xelte-vendor.mk)
