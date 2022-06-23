@@ -1,0 +1,14 @@
+## Fix for echo in calls
+audio_hal.disable_two_mic=false
+    
+## SurfaceFlinger
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+    
+## Lockscreen rotation
+lockscreen.rot_override=true
+
+## FIFO UI scheduling
+sys.use_fifo_ui=1
+
+## Set fdsan to the warn_once severity level
+debug.fdsan=warn_once
