@@ -32,9 +32,6 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/manifest.xml
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_j7xelte
 TARGET_RECOVERY_DEVICE_MODULES := libinit_j7xelte
 
-# Properties
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
